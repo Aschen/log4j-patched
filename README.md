@@ -10,7 +10,7 @@ The modified version does not contains the `JndiLookup.class` class anymore.
 
 First, **you shouldn't trust random people on internet**.
 
-![internet dog](./misc/internet_dog.png)
+![internet dog](./misc/internet_dog.jpg)
 
 This repository includes a script that allows to generated patched version of the library on your computer:
  - Download original library from a trusted source ([Maven](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core))
@@ -58,5 +58,3 @@ If you cannot apply the patch yourself, you can directly download the patched ja
  - [log4j-core-2.14.1.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.14.1.jar)
  - [log4j-core-2.15.0.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.15.0.jar)
  - [log4j-core-2.16.0.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.16.0.jar)
-https://github.com/Aschen/log4j-patched/raw/master/log4j/log4j-core-2.0.1.jar
-https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0.1.jar
