@@ -10,7 +10,7 @@ The modified version does not contains the `JndiLookup.class` class anymore.
 
 First, **you shouldn't trust random people on internet**.
 
-![internet dog](./internet_dog.png)
+![internet dog](./misc/internet_dog.png)
 
 This repository includes a script that allows to generated patched version of the library on your computer:
  - Download original library from a trusted source ([Maven](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core))
