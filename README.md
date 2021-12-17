@@ -25,7 +25,9 @@ zip -q -d log4j-core-$version.jar org/apache/logging/log4j/core/lookup/JndiLooku
 ```
 
 If you cannot apply the patch yourself, you can directly download the patched jar from this repository:
- - [log4j-core-2.0.1.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0.1.jar)
+ - [log4j-core-2.0-beta9.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0-beta9.jar)
+ - [log4j-core-2.0-rc1.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0-rc1.jar)
+ - [log4j-core-2.0-rc2.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0-rc2.jar)
  - [log4j-core-2.0.2.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0.2.jar)
  - [log4j-core-2.0.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.0.jar)
  - [log4j-core-2.1.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.1.jar)
@@ -58,3 +60,5 @@ If you cannot apply the patch yourself, you can directly download the patched ja
  - [log4j-core-2.14.1.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.14.1.jar)
  - [log4j-core-2.15.0.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.15.0.jar)
  - [log4j-core-2.16.0.jar](https://github.com/Aschen/log4j-patched/raw/1.0.0/log4j/log4j-core-2.16.0.jar)
+
+_Info: version before 2.0-beta9 are not affected since they do not contains the flawed class._
