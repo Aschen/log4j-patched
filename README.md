@@ -15,6 +15,7 @@ First, **you shouldn't trust random people on internet**.
 This repository includes a script that allows to generated patched version of the library on your computer:
  - Download original library from a trusted source ([Maven](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core))
  - Apply the patch by removing the `JndiLookup.class` file
+ - Replace the `log4j-core-x.x.x.jar` on your system by the patched one (use `find / -name log4j-core*.jar` to find it) 
 
 ```bash
 version=2.8.2 # replace your desired version of log4j here
